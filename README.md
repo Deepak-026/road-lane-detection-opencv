@@ -27,4 +27,4 @@ detect lane boundaries under varying lighting and noise conditions.
 ## How to Run
 ```bash
 pip install -r requirements.txt
-python src/lane_detection.py
+python notebook/Lane_Detection.ipynb  
