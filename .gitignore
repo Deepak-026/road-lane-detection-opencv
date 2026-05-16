@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.vscode/
+venv/
+env/
+.env
+.DS_Store
+outputs/
+*.mp4
+.ipynb_checkpoints/

@@ -25,6 +25,12 @@ detect lane boundaries under varying lighting and noise conditions.
 - Matplotlib
 
 ## How to Run
+Install dependencies and run the example runner. The runner accepts a webcam (default) or a video file.
+
 ```bash
 pip install -r requirements.txt
-python notebook/Lane_Detection.ipynb  
+python run.py --source 0                # run webcam
+python run.py --source path/to/video.mp4 --output outputs/result.mp4
+```
+
+Alternatively open the demo notebook at `notebook/lane-detection-cv.ipynb`.
